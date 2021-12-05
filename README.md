@@ -6,6 +6,7 @@
 
 - [001_two_sum](./hot100/001_two_sum.py)
 - [002_add_two_numbers](./hot100/002_add_two_numbers.py)
+- [003_longest_substring_without_repeating_characters](./hot100/003_longest_substring_without_repeating_characters.py)
 
 ------
 
@@ -18,3 +19,7 @@
 - *001_two_sum
 - *002_add_two_numbers
 
+2021.12.05
+- 003_longest_substring_without_repeating_characters: 哈希表，滑动窗口
+- *002_add_two_numbers
+- *003_longest_substring_without_repeating_characters
