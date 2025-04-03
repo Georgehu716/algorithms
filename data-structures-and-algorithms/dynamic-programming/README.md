@@ -1,6 +1,15 @@
 # Dynamic Programming
 
-- SkienaTheAlgorithmDesignManual
+
+
+## Articles
+
+- [The Ultimate Guide to Dynamic Programming](https://medium.com/@al.eks/the-ultimate-guide-to-dynamic-programming-65865ef7ec5b)
+
+
+
+
+## SkienaTheAlgorithmDesignManual
 
 
 The most challenging algorithmic problems involve optimization, where we seek to find a solution that maximizes or minimizes some function.
