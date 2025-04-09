@@ -22,3 +22,16 @@ class Solution:
             return helper(m, n - 1) + helper(m - 1, n)
 
         return helper(m, n)
+
+    def unique_paths_memorization(self, m, n):
+        dp = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
+
+        def helper(m, n):
+            if dp[m][n]:
+                return dp[m][n]
+            elif m == 1 or n == 1:
+                dp[m][n] = 1
+                return dp[m][n]
+
+            dp[m][n] = helper(m-1, n) + helper(m, n-1)
+            return dp[m][n]
